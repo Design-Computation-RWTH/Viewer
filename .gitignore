@@ -63,6 +63,12 @@ Build/*/**
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
+# ifc Files
+*.ifc
+
+# xml files
+Content/*/*.xml
+
 # Built data for maps
 *_BuiltData.uasset
 
