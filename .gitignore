@@ -25,6 +25,9 @@
 *.a
 *.lib
 
+# Plugins
+Plugins/*
+
 # Executables
 *.exe
 *.out
