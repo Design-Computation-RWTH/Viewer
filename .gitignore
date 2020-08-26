@@ -66,6 +66,9 @@ Build/*/**
 # ifc Files
 *.ifc
 
+# ifc convert
+!Content/IfcConvert/IfcConvert.exe
+
 # xml files
 Content/*/*.xml
 
