@@ -45,10 +45,6 @@
 			"MarketplaceURL": "http://www.ue4code.com"
 		},
 		{
-			"Name": "BcfCommunication",
-			"Enabled": true
-		},
-		{
 			"Name": "WebBrowserWidget",
 			"Enabled": true
 		},
