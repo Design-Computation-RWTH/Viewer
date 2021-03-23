@@ -8,7 +8,19 @@ public class Viewer : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EasyFileDialog", "EasyXMLParser", "RuntimeMeshComponent", "LowEntryExtendedStandardLibrary" });
+		PublicDependencyModuleNames.AddRange(new string[] {
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+			"EasyFileDialog",
+			"EasyXMLParser",
+			"RuntimeMeshComponent",
+			"LowEntryExtendedStandardLibrary",
+			"Slate",
+			"SlateCore",
+			"UMG" 
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { "RuntimeMeshComponent" });
 
