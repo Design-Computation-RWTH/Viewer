@@ -15,14 +15,13 @@ public class Viewer : ModuleRules
 			"InputCore",
 			"EasyFileDialog",
 			"EasyXMLParser",
-			"RuntimeMeshComponent",
 			"LowEntryExtendedStandardLibrary",
 			"Slate",
 			"SlateCore",
 			"UMG" 
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "RuntimeMeshComponent" });
+		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
